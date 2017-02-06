@@ -1,0 +1,200 @@
+#container {
+  position:absolute;
+  height:200px;
+  width:200px;
+  top:50%;
+  left:50%;
+  margin-top:-100px;
+  margin-left:-100px;
+}
+
+.fake {
+  fill:none;
+  stroke:black;
+  stroke-width:40;
+  stroke-linecap:round;
+}
+
+#fake_1{
+  stroke-dasharray: 100;
+  animation: draw 2s linear reverse;
+}
+
+#fake_2 {
+  opacity: 0;
+  stroke-dasharray: 200;
+  animation: 
+      appear 0s,
+      draw_2 1s linear reverse;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+#fake_3 {
+  opacity: 0;
+  stroke-dasharray: 250;
+  animation: 
+      appear 0s,
+      draw_3 1s linear reverse;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+#fake_4 {
+  opacity: 0;
+  stroke-dasharray: 70;
+  animation: 
+      appear 0s,
+      draw_4 1s linear reverse;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+#fake_5 {
+  opacity: 0;
+  stroke-dasharray: 100;
+  animation: 
+      appear 0s,
+      draw_5 1s linear reverse;
+  animation-delay: 3.8s;
+  animation-fill-mode: forwards;
+}
+
+#fake_6 {
+  opacity: 0;
+  stroke-dasharray: 250;
+  animation: 
+      appear 0s,
+      draw_3 1s linear reverse;
+  animation-delay: 4.6s;
+  animation-fill-mode: forwards;
+}
+
+#fake_7 {
+  opacity: 0;
+  stroke-dasharray: 70;
+  animation: 
+      appear 0s,
+      draw_4 1s linear reverse;
+  animation-delay: 5.4s;
+  animation-fill-mode: forwards;
+}
+
+#fake_8 {
+  opacity: 0;
+  stroke-dasharray: 200;
+  animation: 
+      appear 0s,
+      draw_2 1s linear reverse;
+  animation-delay: 6.2s;
+  animation-fill-mode: forwards;
+}
+
+#fake_9 {
+  opacity: 0;
+  stroke-dasharray: 380;
+  animation: 
+      appear 0s,
+      draw_9 1s linear reverse;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+}
+
+#fake_10 {
+  opacity: 0;
+  stroke-dasharray: 200;
+  animation: 
+      appear 0s,
+      draw_2 1s linear reverse;
+  animation-delay: 7.8s;
+  animation-fill-mode: forwards;
+}
+
+#fake_11 {
+  opacity: 0;
+  stroke-dasharray: 200;
+  animation: 
+      appear 0s,
+      draw_2 1s linear reverse;
+  animation-delay: 8.6s;
+  animation-fill-mode: forwards;
+}
+
+#fake_12 {
+  opacity: 0;
+  stroke-dasharray: 200;
+  animation: 
+      appear 0s,
+      draw_2 1s linear reverse;
+  animation-delay: 9.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 120;
+  }
+}
+
+@keyframes draw_2 {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 220;
+  }
+}
+
+@keyframes draw_3 {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 280;
+  }
+}
+
+@keyframes draw_4 {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 80;
+  }
+}
+
+@keyframes draw_5 {
+  from {
+    stroke-dashoffset: -10;
+  }
+  to {
+    stroke-dashoffset: 110;
+  }
+}
+
+@keyframes draw_6 {
+  from {
+    stroke-dashoffset: -10;
+  }
+  to {
+    stroke-dashoffset: 260;
+  }
+}
+
+@keyframes draw_9 {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 400;
+  }
+}
+
+@keyframes appear {
+  100% {
+    opacity: 1;
+  }
+}
