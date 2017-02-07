@@ -1,9 +1,9 @@
 #container {
   position:absolute;
-  height:500px;
-  width:500px;
-  top:50%;
-  left:50%;
+  height:400px;
+  width:400px;
+  top:30%;
+  left:30%;
   margin-top:-100px;
   margin-left:-100px;
 }
@@ -52,7 +52,7 @@
 
 #fake_5 {
   opacity: 0;
-  stroke-dasharray: 100;
+  stroke-dasharray: 110;
   animation: 
       appear 0s,
       draw_5 1s linear reverse;
@@ -135,7 +135,7 @@
     stroke-dashoffset: 0;
   }
   to {
-    stroke-dashoffset: 120;
+    stroke-dashoffset: 150;
   }
 }
 
@@ -168,10 +168,10 @@
 
 @keyframes draw_5 {
   from {
-    stroke-dashoffset: -10;
+    stroke-dashoffset: 0;
   }
   to {
-    stroke-dashoffset: 90;
+    stroke-dashoffset: 120;
   }
 }
 
