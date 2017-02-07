@@ -2,10 +2,10 @@
   position:absolute;
   height:400px;
   width:400px;
-  top:20%;
-  left:20%;
-  margin-top:-200px;
-  margin-left:-200px;
+  top:50%;
+  left:50%;
+  margin-top:-100px;
+  margin-left:-100px;
 }
 
 .fake {
@@ -76,8 +76,8 @@
   animation-fill-mode: forwards;
   -webkit-animation: 
       appear 0s,
-      draw_4 1s linear reverse;
-  -webkit-animation-delay: 3s;
+      draw_5 1s linear reverse;
+  -webkit-animation-delay: 3.8s;
   -webkit-animation-fill-mode: forwards;
 }
 
@@ -91,8 +91,8 @@
   animation-fill-mode: forwards;
   -webkit-animation: 
       appear 0s,
-      draw_4 1s linear reverse;
-  -webkit-animation-delay: 3s;
+      draw_3 1s linear reverse;
+  -webkit-animation-delay: 4.6s;
   -webkit-animation-fill-mode: forwards;
 }
 
@@ -107,7 +107,7 @@
   -webkit-animation: 
       appear 0s,
       draw_4 1s linear reverse;
-  -webkit-animation-delay: 3s;
+  -webkit-animation-delay: 5.4s;
   -webkit-animation-fill-mode: forwards;
 }
 
@@ -121,8 +121,8 @@
   animation-fill-mode: forwards;
   -webkit-animation: 
       appear 0s,
-      draw_4 1s linear reverse;
-  -webkit-animation-delay: 3s;
+      draw_2 1s linear reverse;
+  -webkit-animation-delay: 6.2s;
   -webkit-animation-fill-mode: forwards;
 }
 
@@ -136,8 +136,8 @@
   animation-fill-mode: forwards;
   -webkit-animation: 
       appear 0s,
-      draw_4 1s linear reverse;
-  -webkit-animation-delay: 3s;
+      draw_9 1s linear reverse;
+  -webkit-animation-delay: 7s;
   -webkit-animation-fill-mode: forwards;
 }
 
@@ -151,8 +151,8 @@
   animation-fill-mode: forwards;
   -webkit-animation: 
       appear 0s,
-      draw_4 1s linear reverse;
-  -webkit-animation-delay: 3s;
+      draw_2 1s linear reverse;
+  -webkit-animation-delay: 7.8s;
   -webkit-animation-fill-mode: forwards;
 }
 
@@ -166,8 +166,8 @@
   animation-fill-mode: forwards;
   -webkit-animation: 
       appear 0s,
-      draw_4 1s linear reverse;
-  -webkit-animation-delay: 3s;
+      draw_2 1s linear reverse;
+  -webkit-animation-delay: 8.6s;
   -webkit-animation-fill-mode: forwards;
 }
 
@@ -181,8 +181,8 @@
   animation-fill-mode: forwards;
   -webkit-animation: 
       appear 0s,
-      draw_4 1s linear reverse;
-  -webkit-animation-delay: 3s;
+      draw_2 1s linear reverse;
+  -webkit-animation-delay: 9.2s;
   -webkit-animation-fill-mode: forwards;
 }
 
