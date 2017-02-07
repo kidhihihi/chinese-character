@@ -2,17 +2,17 @@
   position:absolute;
   height:500px;
   width:500px;
-  top:50%;
-  left:50%;
-  margin-top:-100px;
-  margin-left:-100px;
+  top:30%;
+  left:30%;
+  margin-top:-300px;
+  margin-left:-300px;
 }
 
 .fake {
   fill:none;
   stroke:black;
-  stroke-width:40;
-  stroke-linecap:round;
+  stroke-width: 40;
+  stroke-linecap: round;
 }
 
 #fake_1{
