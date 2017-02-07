@@ -84,6 +84,7 @@
   -webkit-animation: 
       appear 0s,
       draw_3 1s linear reverse;
+}
 
 #fake_7 {
   opacity: 0;
