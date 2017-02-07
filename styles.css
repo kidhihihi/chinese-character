@@ -186,6 +186,7 @@
   -webkit-animation-fill-mode: forwards;
 }
 
+
 @keyframes draw {
   from {
     stroke-dashoffset: 0;
