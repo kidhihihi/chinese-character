@@ -32,8 +32,6 @@
   -webkit-animation: 
       appear 0s,
       draw_2 1s linear reverse;
-  -webkit-animation-delay: 1s;
-  -webkit-animation-fill-mode: forwards;
 }
 
 #fake_3 {
@@ -47,8 +45,6 @@
   -webkit-animation: 
       appear 0s,
       draw_3 1s linear reverse;
-  -webkit-animation-delay: 2s;
-  -webkit-animation-fill-mode: forwards;
 }
 
 #fake_4 {
@@ -62,8 +58,6 @@
   -webkit-animation: 
       appear 0s,
       draw_4 1s linear reverse;
-  -webkit-animation-delay: 3s;
-  -webkit-animation-fill-mode: forwards;
 }
 
 #fake_5 {
@@ -77,8 +71,6 @@
   -webkit-animation: 
       appear 0s,
       draw_5 1s linear reverse;
-  -webkit-animation-delay: 3.8s;
-  -webkit-animation-fill-mode: forwards;
 }
 
 #fake_6 {
@@ -92,8 +84,6 @@
   -webkit-animation: 
       appear 0s,
       draw_3 1s linear reverse;
-  -webkit-animation-delay: 4.6s;
-  -webkit-animation-fill-mode: forwards;
 }
 
 #fake_7 {
@@ -107,8 +97,6 @@
   -webkit-animation: 
       appear 0s,
       draw_4 1s linear reverse;
-  -webkit-animation-delay: 5.4s;
-  -webkit-animation-fill-mode: forwards;
 }
 
 #fake_8 {
@@ -122,8 +110,6 @@
   -webkit-animation: 
       appear 0s,
       draw_2 1s linear reverse;
-  -webkit-animation-delay: 6.2s;
-  -webkit-animation-fill-mode: forwards;
 }
 
 #fake_9 {
@@ -137,8 +123,6 @@
   -webkit-animation: 
       appear 0s,
       draw_9 1s linear reverse;
-  -webkit-animation-delay: 7s;
-  -webkit-animation-fill-mode: forwards;
 }
 
 #fake_10 {
@@ -152,8 +136,6 @@
   -webkit-animation: 
       appear 0s,
       draw_2 1s linear reverse;
-  -webkit-animation-delay: 7.8s;
-  -webkit-animation-fill-mode: forwards;
 }
 
 #fake_11 {
@@ -167,8 +149,6 @@
   -webkit-animation: 
       appear 0s,
       draw_2 1s linear reverse;
-  -webkit-animation-delay: 8.6s;
-  -webkit-animation-fill-mode: forwards;
 }
 
 #fake_12 {
@@ -182,9 +162,8 @@
   -webkit-animation: 
       appear 0s,
       draw_2 1s linear reverse;
-  -webkit-animation-delay: 9.2s;
-  -webkit-animation-fill-mode: forwards;
 }
+
 
 @keyframes draw {
   from {
